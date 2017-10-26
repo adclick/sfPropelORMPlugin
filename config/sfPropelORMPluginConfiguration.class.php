@@ -40,7 +40,7 @@ class sfPropelORMPluginConfiguration extends sfPluginConfiguration
       sfConfig::get('sf_phing_path').'/classes',
     ));
 
-    require_once 'runtime/lib/Propel.php';
+    require_once sfConfig::get('sf_propel_path').'/runtime/lib/Propel.php';
 
     if (!Propel::isInit())
     {
