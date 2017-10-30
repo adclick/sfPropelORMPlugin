@@ -507,7 +507,7 @@ abstract class sfPropelBaseTask extends sfBaseTask
     sfToolkit::addIncludePath(array(
       sfConfig::get('sf_propel_generator_path', realpath(dirname(__FILE__).'/../vendor/propel/generator/lib')),
     ));
-    require_once sfConfig::get('sf_propel_path').'config/GeneratorConfig.php';
+    require_once sfConfig::get('sf_propel_path').'/config/GeneratorConfig.php';
     return new GeneratorConfig($params);
   }
 

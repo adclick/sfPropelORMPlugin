@@ -7,7 +7,7 @@
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  */
-require_once sfConfig::get('sf_phing_path').'/phing/classes/phing/Phing.php';
+require_once sfConfig::get('sf_phing_path').'/classes/phing/Phing.php';
 
 /**
  * @package    symfony

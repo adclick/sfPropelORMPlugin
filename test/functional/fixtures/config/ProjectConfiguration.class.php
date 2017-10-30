@@ -15,8 +15,8 @@ class ProjectConfiguration extends sfProjectConfiguration
     //sfConfig::set('sf_phing_path', SF_DIR.'/../lib/vendor/phing');
 
     // Git way
-    sfConfig::set('sf_propel_path', realpath(dirname(__FILE__) . '/../../../../lib/vendor/propel'));
-    sfConfig::set('sf_phing_path', realpath(dirname(__FILE__) . '/../../../../lib/vendor/phing'));
+    sfConfig::set('sf_propel_path', realpath(dirname(__FILE__) . '/../../../../lib/vendor/propel/propel1'));
+    sfConfig::set('sf_phing_path', realpath(dirname(__FILE__) . '/../../../../lib/vendor/phing/phing'));
   }
 
   public function initializePropel($app)

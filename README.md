@@ -109,8 +109,8 @@ class ProjectConfiguration extends sfProjectConfiguration
     $this->setPluginPath('sfPropelORMPlugin', realpath(dirname(__FILE__) . '/../../../..'));
 
     // SVN way
-    //sfConfig::set('sf_propel_path', SF_DIR.'/../lib/vendor/propel');
-    //sfConfig::set('sf_phing_path', SF_DIR.'/../lib/vendor/phing');
+    //sfConfig::set('sf_propel_path', SF_DIR.'/../lib/vendor/propel/propel1');
+    //sfConfig::set('sf_phing_path', SF_DIR.'/../lib/vendor/phing/phing');
 
     // Git way
     sfConfig::set('sf_propel_path', realpath(dirname(__FILE__) . '/../../../../lib/vendor/propel'));
